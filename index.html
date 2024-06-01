@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <!--link css-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    
+    
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><i class='bx bx-bowl-hot'></i>ANTAR-MAKAN</a>
+
+        <ul class="navbar">
+            <li><a href="home">Home</a></li>
+            <li><a href="menu">Menu</a></li>
+            <li><a href="rekomendasi">Rekomendasi</a></li>
+            <li><a href="reviews">Reviews</a></li>
+        </ul>
+
+        <div class="header-icons">
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <i class='bx bx-search' id="search-icon"></i>
+            <i class='bx bx-cart' id="cart-icon"></i>
+            <i class='bx bx-user' id="user-icon"></i>
+        </div>
+
+        <div class="search-box">
+            <input type="search" name="" id="" placeholder="Cari Lokasimu disini....">
+        </div>
+
+        <!--cart-->
+        <div class="cart">
+            <!--box 1-->
+            <div class="box">
+            <img src="brgr.cart.jpg" alt="">
+            <div class="text">
+                <h3> Cheesee Burger Bacon</h3>
+                <span>Rp 98.000</span>
+                <span>x1</span>
+            </div>
+            <i class='bx bxs-trash-alt' ></i>
+        </div>
+        
+            <!--box 2-->
+            <div class="box">
+            <img src="nasi pdg.jpg" alt="">
+            <div class="text">
+                <h3>Nasi Rendang lengkap</h3>
+                <span>Rp 30.000</span>
+                <span>x1</span>
+            </div>
+            <i class='bx bxs-trash-alt' ></i>
+        </div>
+
+        <h2>Total: Rp 128.000</h2>
+        <a href="#" class="btn">Checkout</a>
+
+        </div>
+
+        <!--login-->
+        <div class="user">
+            <h2>Login</h2>
+            <input type="email" placeholder="Masukkan Email">
+            <input type="password" placeholder="Password">
+            <input type="submit" value="Login" class="login-btn">
+            <p>Lupa Kata Sandi <a href="#">Bantuan</a></p>
+            <p>Belum Punya Akun? <a href="#">Buat Akun  Baru</a></p>
+        </div>
+    </header>
+
+    <!--home-->
+    <section class="home" id="home">
+        <div class="home-text">
+            <span>Hai Sayang</span>
+            <h1>Makanannya mau <br>diantar kemana hari ini?</h1>
+            <a href="" class="btn">Order</a>
+        </div>
+        <div class="home-img">
+            <img src="background.jpg" alt=" ">
+        </div>
+    </section>
+
+    <!--Menu-->    
+    <section class="new" id="new">
+        <div class="heading">
+            <h1>Pasti ada sesuatu buat kamu!</h1>
+        </div>
+        <div class="swiper menu">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="masakan jpg.jpg" alt="">
+                    <div class="content">
+                        <a href="#" class="btn">pesan sekarang</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="minum.jpg" alt="" >
+                    <div class="content">
+                        <a href="#" class="btn">pesan sekarang</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="bakso.jpg" alt="" >
+                    <div class="content">
+                        <a href="#" class="btn">pesan sekarang</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="makanan barat.jpg" alt="" >
+                    <div class="content">
+                        <a href="#" class="btn">pesan sekarang</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="cepat saji.jpg" alt="" >
+                    <div class="content">
+                        <a href="#" class="btn">pesan sekarang</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="dimsum.jpg" alt="" >
+                    <div class="content">
+                        <a href="#" class="btn">pesan sekarang</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--rekomendasi-->
+        <section class="rekomendasi" id="rekomendasi">
+            <div class="heading">
+                <h1>Rekomendasi untukmu yang tersayang</h1>
+            </div>
+            <div class="rekomendasi-container">
+                <div class="box">
+                    <img src="tomyum.jpg" alt="">
+                    <div class="content">
+                        <h2>Tomyum  Seafood</h2>
+
+                        <div class="star">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star-half' ></i>
+                        </div>
+                        <span>Rp 35.000</span>
+                        <i class='bx bx-cart' ></i>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="jus.jpg" alt="">
+                    <div class="content">
+                        <h2>Jus Buah</h2>
+
+                        <div class="star">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star-half' ></i>
+                        </div>
+                        <span>Rp 7.000</span>
+                        <i class='bx bx-cart' ></i>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="naspad.jpg" alt="">
+                    <div class="content">
+                        <h2>Nasi Padang</h2>
+
+                        <div class="star">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star-half' ></i>
+                        </div>
+                        <span>Rp 15.000</span>
+                        <i class='bx bx-cart' ></i>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="smothis.jpg" alt="">
+                    <div class="content">
+                        <h2>Smoothis Buah</h2>
+
+                        <div class="star">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                        </div>
+                        <span>Rp 12.000</span>
+                        <i class='bx bx-cart' ></i>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="nasgor.jpg" alt="">
+                    <div class="content">
+                        <h2>Nasi Goreng Spesial</h2>
+
+                        <div class="star">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                        </div>
+                        <span>Rp 20.000</span>
+                        <i class='bx bx-cart' ></i>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="katsu.jpg" alt="">
+                    <div class="content">
+                        <h2>Chicken Katsu</h2>
+
+                        <div class="star">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star-half' ></i>
+                        </div>
+                        <span>Rp 30.000</span>
+                        <i class='bx bx-cart' ></i>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="capcay.jpg" alt="">
+                    <div class="content">
+                        <h2>Capcay</h2>
+
+                        <div class="star">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                        </div>
+                        <span>Rp 18.000</span>
+                        <i class='bx bx-cart' ></i>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="sate.jpg  " alt="">
+                    <div class="content">
+                        <h2>Sate Ayam</h2>
+
+                        <div class="star">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star-half' ></i>
+                        </div>
+                        <span>Rp 20.000</span>
+                        <i class='bx bx-cart' ></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Reviews-->
+        <section class="reviews" id="reviews">
+            <div class="heading">
+                <h1>Ini Kata Mereka Tentang
+                    <br>ANTAR-MAKAN
+                </h1>
+            </div>
+            <div class="reviews-container">
+                <div class="box">
+                    <img src="profilAyu.jpg" alt="">
+                    <div class="star">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                    </div>
+                    <p>ANTAR-MAKAN emg the best banget dah, sat set banget bang kaya naik burok. Gue kasih bintang 5</p>
+                    <h2>Ayu Ting Ting</h2>
+                </div>
+                <div class="box">
+                    <img src="profil jokowi.jpg" alt="">
+                    <div class="star">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                    </div>
+                    <p>Yaaa ANTAR-MAKAN memang cocok untuk warga indonesia yang laper tapi mager buat kemana mana </p>
+                    <h2>Jokowidodo</h2>
+                </div>
+                <div class="box">
+                    <img src="pp.jpg" alt="">
+                    <div class="star">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                    </div>
+                    <p>Saya selalu menggunakan aplikasi ANTAR-MAKAN saat saya merasa malas untuk keluar, pengiriman cepat.  </p>
+                    <h2>calonHaji</h2>
+                </div>
+                <div class="box">
+                    <img src="profilLunaMaya.jpg" alt="">
+                    <div class="star">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                    </div>
+                    <p>Pengiriman sat set, makanan rapi selamat sampai tujuan. Kurirnya ganteng-ganteng, ANTAR-MAKAN juara</p>
+                    <h2>Luna Maya</h2>
+                </div>
+                <div class="box">
+                    <img src="pp2.jpg" alt="">
+                    <div class="star">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                    </div>
+                    <p>Segala jenis makanan tersedia disini, dari mulai makanan gen z sampai gen x semua tersedia, kurir ramah dan pengiriman cepat</p>
+                    <h2>Rachellia</h2>
+                </div>
+                <div class="box">
+                    <img src="pp3.jpg" alt="">
+                    <div class="star">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                    </div>
+                    <p>Antar makan selalu menjadi pilihan favorit saya saat saya mager buat keluar, banyak promo dan diskon, pengiriman cepat dan rapi .</p>
+                    <h2>Syahnaz</h2>
+                </div>
+                <div class="box">
+                    <img src="profil lee min ho.jpg" alt="">
+                    <div class="star">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                    </div>
+                    <p>saya memberi 5 bintang kepada ANTAR-MAKAN. Terimakasih telah  mengantar makanan saya, saat saya konser di Ciledug </p>
+                    <h2>Lee Min Hoo</h2>
+                </div>
+                <div class="box">
+                    <img src="profil2.jpg" alt="">
+                    <div class="star">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                    </div>
+                    <p>Busett dah, kata gue mah ANTAR-MAKAN recommend banget, cocok buat elu-elu pade yang suka kelaperan tengah malem</p>
+                    <h2>Mpok Alpa</h2>
+                </div>
+            </div>
+        </section>
+
+        <!--footer-->
+        <footer>
+            <div class="footer-container">
+                <div class="logo">
+                    <a href="#" class="logo-pict"><i class='bx bx-bowl-hot'></i></a>
+                    <h1>ANTAR-MAKAN</h1>
+                </div>
+                <div class="contact">
+                    <p>(021) 806 48777</p>
+                    <p>Ruko Metro Square, Jl. Imam Bonjol N0.47-49, Purwosari,</p>
+                    <p> Kec. Semarang, Jawa Tengah 50172</p>
+                </div>
+                <div class="social-media">
+                        <a href="#"><i class='bx bxl-facebook' ></i></a>
+                        <a href="#"><i class='bx bxl-instagram' ></i></a>
+                        <a href="#"><i class='bx bxl-twitter' ></i></a>
+                        <a href="#"><i class='bx bxl-tiktok' ></i></a>
+                </div>
+                <div class="footer-links">
+                    <a href="#">Bantuan</a>
+                    <a href="#">Syarat dan Ketentuan</a>
+                    <a href="#">Kebijakan Privasi</a>
+                </div>
+                <div class="copyright">
+                    <p>© Antar Makan 2024</p>
+                </div>
+            </div>
+        </footer>
+    
+
+         
+    <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+    <script src="scroll.js"></script>
+</body>
+</html>
